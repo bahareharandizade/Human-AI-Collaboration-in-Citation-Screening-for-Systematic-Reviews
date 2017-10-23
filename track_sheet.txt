@@ -1,0 +1,839 @@
+*************************************************************
+iteration=0
+learning_set=10
+test_set=4739
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.6
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.8
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.2, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=1.0
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 15, 'vect__max_df': 1.0, 'vect__min_df': 0.2, 'clf__max_features': 'log2', 'clf__class_weight': 'balanced'}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.8
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=1
+learning_set=20
+test_set=4729
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.75
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.8, 'clf__fit_prior': True, 'vect__min_df': 0.2, 'clf__alpha': 0.1}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.75
+bestparameter={'clf__gamma': 0.01, 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.2, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'rbf'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.8
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 1.0, 'vect__min_df': 1, 'clf__max_features': 'log2', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.75
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 0.8, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=2
+learning_set=30
+test_set=4719
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.766666666667
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.766666666667
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.8
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 15, 'vect__max_df': 0.8, 'vect__min_df': 1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.766666666667
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=3
+learning_set=40
+test_set=4709
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.8
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.825
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.1, 'clf__C': 100, 'clf__class_weight': 'balanced', 'clf__kernel': 'rbf'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.8
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.825
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=4
+learning_set=50
+test_set=4699
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+0.84
+{'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.84
+bestparameter={'clf__gamma': 0.01, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'sigmoid'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.86
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 0.8, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.84
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=5
+learning_set=60
+test_set=4689
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.866666666667
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.866666666667
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.866666666667
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.883333333333
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=6
+learning_set=70
+test_set=4679
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.885714285714
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.885714285714
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 0.1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.9
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.2, 'clf__max_features': None, 'clf__class_weight': 'balanced'}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.885714285714
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=7
+learning_set=80
+test_set=4669
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.9
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 1.0, 'clf__fit_prior': False, 'vect__min_df': 0.2, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.8875
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.2, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.9
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 15, 'vect__max_df': 0.8, 'vect__min_df': 0.2, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.8875
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 0.9, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=8
+learning_set=90
+test_set=4659
+k=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.911111111111
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 0.9, 'clf__fit_prior': False, 'vect__min_df': 1, 'clf__alpha': 0.01}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.9
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 0.1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.911111111111
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': 'log2', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.911111111111
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=9
+learning_set=100
+test_set=4649
+K=10
+M=10
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.91
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 1.0, 'clf__fit_prior': False, 'vect__min_df': 1, 'clf__alpha': 0.01}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.9
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.91
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 15, 'vect__max_df': 0.9, 'vect__min_df': 1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.91
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 0.8, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 5}
+
+------------------------------------------------------------------------------------------------------------------
+iteration=0
+learning_set=10
+test_set=4739
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.6
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.8
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.2, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.9
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 0.8, 'vect__min_df': 1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.8
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=1
+learning_set=90
+test_set=4659
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.9
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.9
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.911111111111
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 1.0, 'vect__min_df': 0.2, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.911111111111
+{'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=2
+learning_set=170
+test_set=4579
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.923529411765
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.935294117647
+bestparameter={'clf__gamma': 0.1, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 0.2, 'clf__C': 1000, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'poly'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.929411764706
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 1.0, 'vect__min_df': 1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.923529411765
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=3
+learning_set=250
+test_set=4499
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.944
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.952
+bestparameter={'clf__gamma': 0.1, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.2, 'clf__C': 1000, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'poly'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.948
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 0.8, 'vect__min_df': 0.2, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.944
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 0.9, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=4
+learning_set=330
+test_set=4419
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.951515151515
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.954545454545
+bestparameter={'clf__gamma': 0.1, 'clf__probability': True, 'vect__max_df': 0.8, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': 'balanced', 'clf__kernel': 'poly'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.954545454545
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 1.0, 'vect__min_df': 0.2, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.957575757576
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=5
+learning_set=410
+test_set=4339
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.958536585366
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.958536585366
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.8, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.965853658537
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 15, 'vect__max_df': 0.8, 'vect__min_df': 0.2, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.960975609756
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=6
+learning_set=490
+test_set=4259
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.965306122449
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.965306122449
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.969387755102
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': None, 'clf__class_weight': 'balanced'}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.965306122449
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 0.9, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=7
+learning_set=570
+test_set=4179
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.966666666667
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.966666666667
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.968421052632
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.2, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.968421052632
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 0.9, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=8
+learning_set=650
+test_set=4099
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.967692307692
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.967692307692
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.967692307692
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.969230769231
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 0.9, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=9
+learning_set=730
+test_set=4019
+K=10
+M=80
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.971232876712
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.971232876712
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+0.972602739726
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 10, 'vect__max_df': 0.8, 'vect__min_df': 1, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.972602739726
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 0.9, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 1, 'clf__n_neighbors': 5}
+
+------------------------------------------------------------------------------------------------------------------
+iteration=0
+learning_set=10
+test_set=4739
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.6
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 0.1, 'clf__alpha': 1.0}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.8
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 0.2, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.9
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.2, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.8
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=1
+learning_set=210
+test_set=4539
+K=10
+M=200
+
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.914285714286
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 1.0, 'clf__fit_prior': False, 'vect__min_df': 1, 'clf__alpha': 0.1}
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.909523809524
+bestparameter={'clf__gamma': 0.01, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'rbf'}
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.914285714286
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 15, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.9
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.1, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=2
+learning_set=410
+test_set=4339
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.936585365854
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 1, 'clf__alpha': 0.001}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.934146341463
+bestparameter={'clf__gamma': 1, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'rbf'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.936585365854
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': 'balanced'}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.929268292683
+bestparameter={'vect__ngram_range': (1, 1), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=3
+learning_set=610
+test_set=4139
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.954098360656
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 1.0, 'clf__fit_prior': True, 'vect__min_df': 1, 'clf__alpha': 0.01}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.954098360656
+bestparameter={'clf__gamma': 1, 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'rbf'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.952459016393
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 15, 'vect__max_df': 0.9, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.954098360656
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=4
+learning_set=810
+test_set=3939
+10
+200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.961728395062
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 1, 'clf__alpha': 0.01}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.96049382716
+bestparameter={'clf__gamma': 1, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'rbf'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.96049382716
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 10, 'vect__max_df': 0.8, 'vect__min_df': 1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.959259259259
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=5
+learning_set=1010
+test_set=3739
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.969306930693
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 1, 'clf__alpha': 0.01}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.968316831683
+bestparameter={'clf__gamma': 1, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'rbf'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.968316831683
+bestparameter={'vect__ngram_range': (1, 1), 'clf__n_estimators': 15, 'vect__max_df': 1.0, 'vect__min_df': 0.2, 'clf__max_features': 'log2', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.964356435644
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 3}
+
+*************************************************************
+iteration=6
+learning_set=1210
+test_set=3539
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.973553719008
+bestparameter={'vect__ngram_range': (1, 2), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 1, 'clf__alpha': 0.01}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.972727272727
+bestparameter={'clf__gamma': 1, 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'rbf'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.973553719008
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 20, 'vect__max_df': 0.8, 'vect__min_df': 0.1, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.970247933884
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=7
+learning_set=1410
+test_set=3339
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.975886524823
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': False, 'vect__min_df': 1, 'clf__alpha': 0.001}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.973758865248
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 1.0, 'vect__ngram_range': (1, 1), 'vect__min_df': 1, 'clf__C': 1000, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'sigmoid'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.974468085106
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 15, 'vect__max_df': 0.8, 'vect__min_df': 0.1, 'clf__max_features': None, 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.971631205674
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=8
+learning_set=1610
+test_set=3139
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.973291925466
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': False, 'vect__min_df': 1, 'clf__alpha': 0.001}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.972049689441
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.971428571429
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 15, 'vect__max_df': 0.8, 'vect__min_df': 0.1, 'clf__max_features': 'auto', 'clf__class_weight': {'1': 10}}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.970186335404
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 5}
+
+*************************************************************
+iteration=9
+learning_set=1810
+test_set=2939
+K=10
+M=200
+learning_set_vector=['0', '0', '1', '1', '0', '1', '1', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '1', '0', '1', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0']
+
+Machine 1 NaiveBase
+NaiveBase fitted!
+fittingscore=0.970165745856
+bestparameter={'vect__ngram_range': (1, 1), 'vect__max_df': 0.9, 'clf__fit_prior': True, 'vect__min_df': 1, 'clf__alpha': 0.01}
+
+Machine 2 SVM
+SVM fitted!
+fittingscore=0.971270718232
+bestparameter={'clf__gamma': 'auto', 'clf__probability': True, 'vect__max_df': 0.9, 'vect__ngram_range': (1, 2), 'vect__min_df': 1, 'clf__C': 100, 'clf__class_weight': {'1': 10}, 'clf__kernel': 'linear'}
+
+Machine 3 RandomForrest
+RF fitted!
+fittingscore=0.970718232044
+bestparameter={'vect__ngram_range': (1, 2), 'clf__n_estimators': 20, 'vect__max_df': 1.0, 'vect__min_df': 0.1, 'clf__max_features': None, 'clf__class_weight': 'balanced'}
+
+Machine 4 KNN
+KNN fitted!
+fittingscore=0.967955801105
+bestparameter={'vect__ngram_range': (1, 2), 'clf__algorithm': 'auto', 'vect__max_df': 1.0, 'clf__leaf_size': 10, 'clf__weights': 'uniform', 'vect__min_df': 0.2, 'clf__n_neighbors': 3}
+
+
+Process finished with exit code 0
